@@ -62,37 +62,43 @@
 
     </div>
   </header><!-- End Header -->
-
+  
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-end align-items-center">
-    <div id="heroCarousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
-
-      <!-- Slide 1 -->
-      <div class="carousel-item active">
-        <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">We are professional<span></span></h2>
-          <p class="animate__animated fanimate__adeInUp">we collaborate with people to make their ideas come true and we continuously strive to achieve the results and make customers happy</p>
-          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">EIA Technologies</a>
-        </div>
+    <div id="heroCarousel" data-bs-interval="5000" class="container carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
+      <div class="carousel-inner">
+      <!-- Slide 1 -->
+        <div class="carousel-item active" id="carousel-item">
+          <div class="carousel-container">
+            <h2 class="animate__animated animate__fadeInDown">We are professional<span></span></h2>
+            <p class="animate__animated fanimate__adeInUp">we collaborate with people to make their ideas come true and we continuously strive to achieve the results and make customers happy</p>
+            <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">EIA Technologies</a>
+          </div>
+        </div>
 
       <!-- Slide 2 -->
-      <div class="carousel-item">
-        <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Industry Practices</h2>
-          <p class="animate__animated animate__fadeInUp">In order to provide clients with specialised IT solutions, EIA Technologies has developed expertise in the Project & Portfolio Management.</p>
-          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">EIA Technologies</a>
+        <div class="carousel-item">
+          <div class="carousel-container">
+            <h2 class="animate__animated animate__fadeInDown">Industry Practices</h2>
+            <p class="animate__animated animate__fadeInUp">In order to provide clients with specialised IT solutions, EIA Technologies has developed expertise in the Project & Portfolio Management.</p>
+            <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">EIA Technologies</a>
+          </div>
         </div>
-      </div>
 
       <!-- Slide 3 -->
-      <div class="carousel-item">
-        <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Services</h2>
-          <p class="animate__animated animate__fadeInUp">We provide a range of IT consulting services by leveraging our domain knowledge on latest Technologies.</p>
-          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">EIA Technologies</a>
+        <div class="carousel-item">
+          <div class="carousel-container">
+            <h2 class="animate__animated animate__fadeInDown">Services</h2>
+            <p class="animate__animated animate__fadeInUp">We provide a range of IT consulting services by leveraging our domain knowledge on latest Technologies.</p>
+            <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">EIA Technologies</a>
+          </div>
         </div>
-      </div>
+    </div>
 
       <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
         <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
